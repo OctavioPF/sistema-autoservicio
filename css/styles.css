@@ -48,6 +48,28 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.product {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product h3 {
+  margin-bottom: 0.5rem;
+}
+
+.product p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
