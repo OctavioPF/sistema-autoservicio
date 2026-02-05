@@ -1,19 +1,22 @@
-# sistema de autoservicio
-Proyecto Full Stack desarrollado con:
-- Vue.js
-- Node.js
-- Express
-- MySQL
+# Tienda Autoservicio
 
-## Objetivo
-Sistema web para tiendas de Autoservicioque permite
-- Gestion de productos
-- Control de Inventarios
-- Registro de ventas Gestion de  usuarios
+Proyecto frontend que simula una tienda de autoservicio.
 
-## Estado del proyecto
+## Funcionalidades
+- Render dinámico de productos
+- Carrito de compras
+- Suma automática del total
+- Eliminación de productos
+- Persistencia con localStorage
 
-- En desarrollo
+## Tecnologías
+- HTML5
+- CSS3 (Flexbox / Grid)
+- JavaScript Vanilla
+- Git & GitHub
 
+## Responsive
+Adaptado para dispositivos móviles.
 
-## Autor: Octavio Palacio
+## Autor
+Octavio Palacio

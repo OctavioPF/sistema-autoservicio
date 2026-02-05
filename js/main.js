@@ -8,6 +8,7 @@ const container = document.getElementById('products');
 let cart = [];
 
 function renderProducts() {
+    
   container.innerHTML = '';
 
   products.forEach(product => {
@@ -27,7 +28,12 @@ function renderProducts() {
 function addToCart(id) {
   const product = products.find(p => p.id === id);
   cart.push(product);
-  alert(`${product.name} agregado al carrito`);
+  if (cart.length === 0) {
+  cartContainer.innerHTML = '<li>El carrito está vacío</li>';
+  totalElement.textContent = 0;
+  return;
+}
+  renderCart();
 }
 
 renderProducts();
