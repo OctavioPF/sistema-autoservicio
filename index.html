@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Autoservicio</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Autoservicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Tienda Autoservicio</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">contactos</a>
-        </nav>
-    </header>
-<main class="container">
-  <section id="products" class="products"></section>
-</main>  <section class="cart">
-  <h2>Carrito</h2>
-  <ul id="cart-items"></ul>
-  <p class="total">Total: $<span id="total">0</span></p>
-</section>
 
-    <script src="js/main.js"></script>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Tienda Autoservicio</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container">
+
+    <!-- PRODUCTOS -->
+    <section id="products" class="products">
+      <!-- JS inserta productos aquí -->
+    </section>
+
+    <!-- CARRITO -->
+    <section class="cart">
+      <h2>Carrito</h2>
+      <ul id="cart-items">
+        <!-- JS inserta carrito aquí -->
+      </ul>
+      <p class="total">
+        Total: $<span id="total">0</span>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
 </body>
 </html>
